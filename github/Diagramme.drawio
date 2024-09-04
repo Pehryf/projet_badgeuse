@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10" pages="2">
+  <diagram id="td5s1ZhGOYmppQ_Y-Nw2" name="diagramme des exigences">
+    <mxGraphModel dx="2876" dy="2243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IX_WI5sEP8J1MguDvB75-1" value="&lt;div&gt;&amp;lt; requirement &amp;gt;&lt;/div&gt;Système de badge." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=38;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-194" y="-91" width="200" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-2" value="&lt;div&gt;id=1&lt;/div&gt;text=&quot;mettre en place un système de badge NFC permettant d&#39;enregistrer automatiquement les présences des étudiants et des enseignants (présence, retard, absence)&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IX_WI5sEP8J1MguDvB75-1">
+          <mxGeometry y="38" width="200" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-3" value="&lt;div&gt;&amp;lt; Requirement &amp;gt;&lt;/div&gt;Badge" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=39;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-423" y="217" width="140" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-4" value="&lt;div&gt;id=1.1&lt;/div&gt;text=&quot;Le lecteur de badge NFC devra être compatible avec des carte déjà présente dans l&#39;établissement &quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IX_WI5sEP8J1MguDvB75-3">
+          <mxGeometry y="39" width="140" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=circlePlus;startFill=0;endArrow=none;endFill=0;exitX=0.233;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX_WI5sEP8J1MguDvB75-2" target="IX_WI5sEP8J1MguDvB75-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-94" y="65" as="sourcePoint" />
+            <mxPoint x="-250" y="124" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-147" y="99" />
+              <mxPoint x="-355" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-6" value="&amp;lt; Requirement &amp;gt;&lt;div&gt;Exigence sécurité&lt;/div&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-272" y="533" width="140" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-7" value="id=1.1.1&lt;div&gt;text=&quot;connexion sécurisée pour garantir l&#39;intégrité et la confidentialité des données&quot;&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="IX_WI5sEP8J1MguDvB75-6">
+          <mxGeometry y="40" width="140" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-8" value="&amp;lt;&amp;lt;deriveRqt&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.479;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IX_WI5sEP8J1MguDvB75-6" target="IX_WI5sEP8J1MguDvB75-4">
+          <mxGeometry x="-0.1429" y="30" width="160" relative="1" as="geometry">
+            <mxPoint x="-215" y="389" as="sourcePoint" />
+            <mxPoint x="-358.03999999999996" y="378.99000000000024" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-9" value="&amp;lt; Requirement &amp;gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;gestion des données&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=39;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-99" y="125" width="140" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-10" value="id=1.2&lt;div&gt;&lt;/div&gt;&lt;div&gt;text=&quot;gestion des données:&lt;/div&gt;&lt;div&gt;présences, retards, absences. envoi par mail d&#39;alertes&quot;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IX_WI5sEP8J1MguDvB75-9">
+          <mxGeometry y="39" width="140" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=circlePlus;startFill=0;endArrow=none;endFill=0;exitX=0.513;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-93.39999999999998" y="64.45299999999997" as="sourcePoint" />
+            <mxPoint x="-31" y="125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-93" y="100" />
+              <mxPoint x="-29" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-12" value="&lt;div&gt;&amp;lt; Requirement &amp;gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;Site WEB" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=39;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-253" y="246" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-13" value="id=1.2.1&lt;div&gt;text=&quot;affichage des élèves et profs présents, absents ou en retard&quot;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IX_WI5sEP8J1MguDvB75-12">
+          <mxGeometry y="39" width="140" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-14" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&amp;lt; Requirement &amp;gt;&lt;div&gt;&lt;/div&gt;base de données" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=42;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="296" width="140" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-15" value="id=1.2.2&lt;div&gt;text=&quot;Stock les données des élève et prof (nom, prénom, photo)&lt;/div&gt;&lt;div&gt;données confidentielles (numéro de téléphone, email, etc...) &quot;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IX_WI5sEP8J1MguDvB75-14">
+          <mxGeometry y="42" width="140" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&amp;lt; Requirement &amp;gt;&lt;div&gt;&lt;/div&gt;Alerte" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=47;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="143" y="159.5" width="140" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-17" value="&lt;div&gt;id=1.2.3&lt;/div&gt;&lt;div&gt;text=&quot;Envoie un message par email quand un élève est trop en retard ou/et absent &quot;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IX_WI5sEP8J1MguDvB75-16">
+          <mxGeometry y="47" width="140" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-18" value="&lt;div&gt;&amp;lt; Requirement &amp;gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;Administratifs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=39;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="333" width="140" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-19" value="Id=1.2.4&lt;div&gt;text=&quot;possibilité de mettre a jour les données ( rajouter prof/élèves, données personnelles )&quot;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="IX_WI5sEP8J1MguDvB75-18">
+          <mxGeometry y="39" width="140" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX_WI5sEP8J1MguDvB75-10" target="IX_WI5sEP8J1MguDvB75-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="390" as="sourcePoint" />
+            <mxPoint x="350" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-183" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.626;exitY=0.978;exitDx=0;exitDy=0;endArrow=none;endFill=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX_WI5sEP8J1MguDvB75-10" target="IX_WI5sEP8J1MguDvB75-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-21" y="266" as="sourcePoint" />
+            <mxPoint x="51" y="348" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-11" y="284" />
+              <mxPoint x="-44" y="284" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.991;exitY=0.43;exitDx=0;exitDy=0;endArrow=none;endFill=0;exitPerimeter=0;entryX=-0.011;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IX_WI5sEP8J1MguDvB75-10" target="IX_WI5sEP8J1MguDvB75-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59" y="156" as="sourcePoint" />
+            <mxPoint x="131" y="238" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="59" y="204" />
+              <mxPoint x="59" y="202" />
+              <mxPoint x="60" y="202" />
+              <mxPoint x="60" y="200" />
+              <mxPoint x="122" y="200" />
+              <mxPoint x="122" y="207" />
+              <mxPoint x="146" y="207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=1;entryY=0.821;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IX_WI5sEP8J1MguDvB75-18" target="IX_WI5sEP8J1MguDvB75-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="55" as="sourcePoint" />
+            <mxPoint x="117" y="137" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="124" y="237" />
+              <mxPoint x="83" y="237" />
+              <mxPoint x="83" y="234" />
+              <mxPoint x="81" y="234" />
+              <mxPoint x="81" y="240" />
+              <mxPoint x="41" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-24" value="&amp;lt;&amp;lt;deriveRqt&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.431;entryY=1.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IX_WI5sEP8J1MguDvB75-6" target="IX_WI5sEP8J1MguDvB75-13">
+          <mxGeometry x="-0.1429" y="30" width="160" relative="1" as="geometry">
+            <mxPoint x="-191" y="480" as="sourcePoint" />
+            <mxPoint x="-243" y="324" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-25" value="&amp;lt;&amp;lt;deriveRqt&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IX_WI5sEP8J1MguDvB75-6" target="IX_WI5sEP8J1MguDvB75-15">
+          <mxGeometry x="-0.1429" y="30" width="160" relative="1" as="geometry">
+            <mxPoint x="-68" y="512" as="sourcePoint" />
+            <mxPoint x="-120" y="356" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IX_WI5sEP8J1MguDvB75-26" value="&amp;lt;&amp;lt;deriveRqt&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;endSize=12;dashed=1;verticalAlign=bottom;exitX=1.01;exitY=0.266;exitDx=0;exitDy=0;entryX=-0.011;entryY=1.032;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="IX_WI5sEP8J1MguDvB75-7" target="IX_WI5sEP8J1MguDvB75-19">
+          <mxGeometry x="-0.1429" y="30" width="160" relative="1" as="geometry">
+            <mxPoint x="17" y="640" as="sourcePoint" />
+            <mxPoint x="-35" y="484" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8n1p4Jy5KqXIfNZAB0HN" name="diagramme de déploiement">
+    <mxGraphModel dx="1434" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
