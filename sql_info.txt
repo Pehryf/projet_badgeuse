@@ -1,0 +1,6 @@
+Hôte MySQL 	: mysql-ufa-saint-eloi.alwaysdata.net
+
+Version 	: 10.11 (mariadb)
+
+identifiant 	: 380258_admin
+mdp 		: BtsCIEL.UFA2_ir*
