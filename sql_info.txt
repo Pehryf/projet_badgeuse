@@ -4,3 +4,7 @@ Version 	: 10.11 (mariadb)
 
 identifiant 	: 380258_admin
 mdp 		: BtsCIEL.UFA2_ir*
+
+
+adresse mail : ufa-saint-eloi@alwaysdata.net
+mdp : BtsCIEL.UFA2_ir*
