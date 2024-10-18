@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, rgb(6, 6, 108), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+}
+.conteneur {
+    position: relative;
+}
+.conteneur form {
+    width: 500px;
+    height: 600px;
+    background: rgba(255,255,255,.6);
+    border-left: 1px solid rgba(255,255,255, .3);
+    border-top: 1px solid rgba(255,255,255, .3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0, .2);
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.conteneur form .image {
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+.conteneur form .image img {
+    width: 100%;
+    height: 100%;
+}
+.conteneur form h1 {
+    margin: 5px;
+    margin-top: 30px;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0, .2);
+}
+.conteneur form input {
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255,255,255, .3);
+    border-top: 1px solid rgba(255,255,255, .3);
+    margin: 10px;
+    padding: 5px;
+    width: 350px;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0, .2);
+    transition: all .3s;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0, .2);
+    text-align: center;
+}
+input:hover,
+input[type="identifiant"]:focus,
+input[type="password"]:focus {
+    background: rgba(255,255,255,0.1);
+    box-shadow: 4px 4px 60px 8px rgba(0, 0,0,0.2);
+}
+a {
+    margin: 5px;
+    color: black;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 15px;
+}
+button {
+    margin: 10px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 200px;
+    height: 45px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(6, 6, 108);
+    border-left: 1px solid rgba(6, 6, 108, .3);
+    border-top: 1px solid rgba(163, 163, 255, 0.3);
+    transition: all .3s;
+    cursor: pointer;
+
+}
+button:hover {
+    text-shadow: 2px 2px 6px #00000040;
+    background-color: rgb(192, 192, 234);
+    border: 2px solid rgb(6, 6, 108);
+    color: black;
+}
+button:active {
+    text-shadow: none;
+    background-color: white;
+    border: 2px solid rgb(6, 6, 108);
+    color: black;
+}

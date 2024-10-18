@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #4b6cb7, #182848);
+    color: #f6f6f6;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(45deg, #005bea, #00c6fb);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header .gauche {
+    display: flex;
+    align-items: center;
+}
+header .gauche img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+header .gauche p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+header .droite button {
+    padding: 10px 20px;
+    background: #fff;
+    color: #005bea;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #005bea;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background 0.3s, color 0.3s;
+}
+.nav a:hover {
+    background: #010101;
+    color: #fff;
+    border-radius: 5px;
+}
+/* Section info */
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+.info .left, .info .right {
+    width: 48%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info .right {
+    background:rgba(255, 255, 255, 0.1)
+}
+.info .right .barre {
+    height: 40px;
+    background: linear-gradient(45deg, #005bea, #00c6fb);
+    border-radius: 5px;
+}
+
+/* Ajout d'animations */
+button, a {
+    transition: all 0.3s ease;
+}
+
+.modifier{
+    color: goldenrod;
+}
+
+.supprimer{
+    color:red;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid white;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="password"]::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    background-color: #3498db; /* Couleur bleue agréable */
+    color: white; /* Texte en blanc */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Effet de transition quand on passe la souris dessus */
+}
+
+button:hover {
+    background-color: #2980b9; /* Couleur un peu plus foncée au survol */
+}
+
+select {
+    background-color: #182848;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+select option {
+    background-color: #182848;
+    color: white;
+}
